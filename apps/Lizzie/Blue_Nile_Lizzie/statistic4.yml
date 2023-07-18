@@ -1,0 +1,48 @@
+id: statistic4
+type: widget
+subtype: StatisticWidget2
+template:
+  ordered:
+    - clickable: false
+    - positiveTrend: '{{ self.value >= 0 }}'
+    - signDisplay: auto
+    - secondaryCurrency: USD
+    - secondarySuffix: ''
+    - align: left
+    - secondaryPrefix: ''
+    - secondaryEnableTrend: true
+    - marginType: normal
+    - secondaryDecimalPlaces: null
+    - hidden: false
+    - showSeparators: true
+    - formattingStyle: percent
+    - showInEditor: false
+    - secondaryPositiveTrend: '{{ self.secondaryValue >= 0 }}'
+    - tooltipText: ''
+    - currency: USD
+    - value: '.32'
+    - secondarySignDisplay: trendArrows
+    - suffix: ''
+    - labelCaption: Since last month
+    - prefix: ''
+    - secondaryPadDecimal: false
+    - label: Error Rate
+    - secondaryFormattingStyle: percent
+    - icon: ''
+    - events:
+        ordered: []
+    - enableTrend: false
+    - secondaryValue: '0.11'
+    - decimalPlaces: null
+    - padDecimal: false
+    - maintainSpaceWhenHidden: false
+    - secondaryShowSeparators: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container4
+    subcontainer: b81a7
+    height: 0.8
+    width: 12
+createdAt: 2023-06-01T18:27:01.994Z

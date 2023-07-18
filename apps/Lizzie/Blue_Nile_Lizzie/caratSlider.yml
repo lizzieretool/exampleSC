@@ -1,0 +1,49 @@
+id: caratSlider
+type: widget
+subtype: RangeSliderWidget
+template:
+  ordered:
+    - iconAfter: ''
+    - hideOutput: false
+    - max: '14'
+    - marginType: normal
+    - hidden: false
+    - customValidation: ''
+    - hideValidationMessage: false
+    - step: '.10'
+    - validationMessage: ''
+    - showInEditor: false
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value:
+        ordered:
+          - start: '0'
+          - end: '14'
+    - labelCaption: ''
+    - min: 0
+    - labelWidth: '33'
+    - _disclosedFields:
+        array: []
+    - label: Carats
+    - _validate: false
+    - labelWidthUnit: '%'
+    - invalid: false
+    - iconBefore: bold/shopping-jewelry-diamond-1
+    - events:
+        ordered: []
+    - disabled: false
+    - labelPosition: top
+    - labelWrap: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer2
+    subcontainer: 8654a
+    row: 1
+    col: 4
+    height: 0.6
+    width: 4
+createdAt: 2023-05-18T15:56:21.879Z

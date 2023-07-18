@@ -1,0 +1,445 @@
+id: diamondTable
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - rowHeight: standard
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered:
+          - cost:
+              ordered:
+                - showSeparators: true
+                - currency: USD
+                - padDecimal: true
+                - decimalPlaces: '2'
+          - COLOR:
+              ordered:
+                - optionData: '{{ currentColumn }}'
+                - colorMode: mapped
+                - allowCustomValue: true
+                - optionLabels:
+                    array: []
+                - optionColors: '{{item}}'
+                - optionValues:
+                    array: []
+          - VENDOR_NAME:
+              ordered:
+                - optionData: '{{ currentColumn }}'
+                - colorMode: auto
+                - allowCustomValue: true
+                - optionLabels:
+                    array: []
+                - optionColors:
+                    array: []
+                - optionValues:
+                    array: []
+          - COST:
+              ordered:
+                - showSeparators: true
+                - currency: USD
+                - padDecimal: true
+          - MARKUP:
+              ordered:
+                - showSeparators: true
+                - currency: USD
+                - padDecimal: true
+          - VENDOR_FIXED_FEE:
+              ordered:
+                - showSeparators: true
+                - currency: USD
+                - padDecimal: true
+          - LAB_FLOOR_REPRICING:
+              ordered:
+                - showSeparators: true
+                - currency: USD
+                - padDecimal: true
+          - BE_PRICE:
+              ordered:
+                - showSeparators: true
+                - currency: USD
+                - padDecimal: true
+          - EST_PRICE:
+              ordered:
+                - showSeparators: true
+                - currency: USD
+                - padDecimal: true
+          - status:
+              ordered:
+                - optionData: '{{ currentColumn }}'
+                - colorMode: auto
+                - allowCustomValue: true
+                - optionLabels:
+                    array: []
+                - optionColors:
+                    array: []
+                - optionValues:
+                    array: []
+          - image:
+              ordered: []
+          - customer_name:
+              ordered:
+                - allowCustomValue: true
+          - color:
+              ordered:
+                - optionData: '{{ currentColumn }}'
+                - colorMode: mapped
+                - allowCustomValue: true
+                - optionLabels: ''
+                - optionColors: '{{item}}'
+                - optionValues:
+                    array: []
+    - columnWidths:
+        - object:
+            id: serial
+            value: 144.5
+        - object:
+            id: shape
+            value: 124.921875
+        - object:
+            id: UPC
+            value: 261
+        - object:
+            id: CERT_NUMBER
+            value: 264
+        - object:
+            id: VENDOR_STOCK
+            value: 273
+        - object:
+            id: VENDOR_NAME
+            value: 155
+        - object:
+            id: LAB_FLOOR_REPRICING
+            value: 147
+        - object:
+            id: BE_PRICE
+            value: 152
+        - object:
+            id: EST_PRICE
+            value: 155
+        - object:
+            id: VENDOR_FIXED_FEE
+            value: 149
+        - object:
+            id: status
+            value: 188.0729217529297
+        - object:
+            id: customer_id
+            value: 141.6979217529297
+        - object:
+            id: job_number
+            value: 264.00000762939453
+        - object:
+            id: image
+            value: 107.00000762939453
+        - object:
+            id: Custom Column 1
+            value: 156.00000762939453
+        - object:
+            id: carat
+            value: 65.27777862548828
+        - object:
+            id: customer_name
+            value: 164.9947967529297
+    - showSummaryFooter: false
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered:
+          - Custom Column 1:
+              ordered:
+                - buttonType: action
+                - action: deleteDiamonds
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered:
+          - SHAPE: Shape
+          - shape: Shape
+          - cut: Cut
+          - VENDOR_NAME: Vendor Name
+          - COLOR: Color
+          - color: Color
+          - CERT_NUMBER: Cert Number
+          - VENDOR_FIXED_FEE: Vendor fixed fee
+          - CARAT: Carat
+          - carat: Carat
+          - MARKUP: Markup
+          - quantity: Quantity
+          - job_number: Job Number
+          - customer_name: Customer Name
+          - BE_PRICE: Brilliant Earth Price
+          - COST: Cost
+          - cost: Cost
+          - LAB_FLOOR_REPRICING: Lab Floor Repricing
+          - EST_PRICE: Estimated Price
+          - status: Status
+          - item: Item
+          - clarity: Clarity
+          - serial: Serial
+          - CLARITY: Clarity
+          - location: Location
+          - Custom Column 1: Change Status
+          - Custom Column 2: Change Status
+          - image: Product Image
+          - serial_num: Serial
+          - color_grade: Color Grade
+          - PREMIUMS: Premiums
+          - customer_id: Customer ID
+          - VENDOR_STOCK: Vendor Stock
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - SHAPE: ''
+          - shape: ''
+          - VENDOR_NAME: ''
+          - COLOR: ''
+          - color: ''
+          - CERT_NUMBER: ''
+          - VENDOR_FIXED_FEE: ''
+          - CARAT: ''
+          - carat: ''
+          - UPC: ''
+          - MARKUP: ''
+          - job_number: ''
+          - customer_name: ''
+          - BE_PRICE: ''
+          - COST: ''
+          - cost: ''
+          - LAB_FLOOR_REPRICING: ''
+          - EST_PRICE: ''
+          - status: ''
+          - item: ''
+          - clarity: ''
+          - CLARITY: ''
+          - Custom Column 1: ''
+          - image: ''
+          - PREMIUMS: ''
+          - customer_id: ''
+          - VENDOR_STOCK: ''
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered:
+          - cost: CurrencyDataCell
+          - COLOR: SingleTagDataCell
+          - VENDOR_NAME: SingleTagDataCell
+          - COST: CurrencyDataCell
+          - MARKUP: CurrencyDataCell
+          - VENDOR_FIXED_FEE: CurrencyDataCell
+          - LAB_FLOOR_REPRICING: CurrencyDataCell
+          - BE_PRICE: CurrencyDataCell
+          - EST_PRICE: CurrencyDataCell
+          - Custom Column 1: button
+          - status: SingleTagDataCell
+          - image: ImageDataCell
+          - customer_name: UserDataCell
+          - color: SingleTagDataCell
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - CERT_NUMBER: false
+          - quantity: false
+          - BE_PRICE: false
+          - LAB_FLOOR_REPRICING: false
+          - EST_PRICE: false
+          - Custom Column 1: false
+          - Custom Column 2: false
+          - id: false
+          - PREMIUMS: false
+          - VENDOR_STOCK: true
+    - _columnSummaryTypes:
+        ordered:
+          - cost: sum
+          - COLOR: ''
+          - VENDOR_NAME: ''
+          - COST: sum
+          - MARKUP: sum
+          - VENDOR_FIXED_FEE: sum
+          - LAB_FLOOR_REPRICING: sum
+          - BE_PRICE: sum
+          - EST_PRICE: sum
+          - status: ''
+          - image: ''
+          - customer_name: ''
+          - color: ''
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: null
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered: []
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: true
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ getBlueNileDiamonds.data }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered:
+          - VENDOR_NAME: left
+          - COLOR: left
+          - color: left
+          - VENDOR_FIXED_FEE: right
+          - MARKUP: right
+          - customer_name: left
+          - BE_PRICE: right
+          - COST: right
+          - cost: right
+          - LAB_FLOOR_REPRICING: right
+          - EST_PRICE: right
+          - status: left
+          - Custom Column 1: left
+          - image: left
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: false
+    - sortedDesc: false
+    - customButtonName: Custom Button
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - showRefreshButton: true
+    - pageSize: '20'
+    - useDynamicColumnSettings: false
+    - style:
+        ordered:
+          - headerText: rgba(25, 22, 52, 1)
+          - headerBackground: surfacePrimary
+          - toolbarText: rgb(25, 22, 52)
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered:
+          - cost: ''
+          - COLOR: ''
+          - VENDOR_NAME: ''
+          - COST: ''
+          - MARKUP: ''
+          - VENDOR_FIXED_FEE: ''
+          - LAB_FLOOR_REPRICING: ''
+          - BE_PRICE: ''
+          - EST_PRICE: ''
+          - status: ''
+          - image: ''
+          - customer_name: ''
+          - color: ''
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: false
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered:
+          - Custom Column 1: false
+          - Custom Column 2: false
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered:
+          - shape: '{{_.capitalize(self)}}'
+          - cut: '{{_.capitalize(self)}}'
+          - VENDOR_NAME: ''
+          - COLOR: ''
+          - color: ''
+          - status: ''
+          - clarity: '{{_.toUpper(self)}}'
+          - Custom Column 1: Change Status
+          - color_grade: '{{_.capitalize(self)}}'
+    - showClearSelection: true
+    - doubleClickToEdit: true
+    - overflowType: pagination
+    - _reverseSortedDisplayedDataIndices: null
+    - showTableBorder: true
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns: []
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns:
+        - Custom Column 1
+        - job_number
+        - image
+        - status
+        - customer_name
+        - customer_id
+        - item
+        - cost
+        - carat
+        - shape
+        - color
+        - clarity
+        - Custom Column 2
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns:
+        - Custom Column 1
+        - Custom Column 2
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer2
+    subcontainer: 8654a
+    row: 2.199999999999999
+    height: 18.200000000000003
+    width: 12
+createdAt: 2023-05-18T15:56:22.991Z

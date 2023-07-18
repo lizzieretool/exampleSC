@@ -1,0 +1,21 @@
+id: sidebarFrame1
+type: frame
+subtype: SidebarFrameWidget
+template:
+  ordered:
+    - width: small
+    - isHiddenOnDesktop: false
+    - hidden: false
+    - showHeader: false
+    - paddingType: normal
+    - style:
+        ordered:
+          - border: rgba(227, 227, 227, 1)
+          - background: rgb(255, 255, 255)
+    - isHiddenOnMobile: true
+    - showFooter: true
+    - loading: false
+    - isInEditMode: false
+style:
+  ordered: []
+createdAt: 2023-04-19T21:19:11.453Z

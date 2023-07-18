@@ -1,0 +1,67 @@
+id: status1
+type: widget
+subtype: StatusWidget
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - _values:
+        - completed
+        - pending
+        - canceled
+    - fallbackTooltip: ''
+    - iconByIndex:
+        array: []
+    - iconPosition: left
+    - values:
+        array: []
+    - _iconByIndex:
+        - bold/interface-validation-check-circle
+        - bold/interface-alert-warning-circle
+        - bold/interface-delete-circle
+    - marginType: normal
+    - hidden: false
+    - data:
+        array: []
+    - selectedItem: null
+    - showInEditor: false
+    - verticalAlign: top
+    - value: completed
+    - _disclosedFields:
+        array: []
+    - _hasMigratedNestedItems: true
+    - itemMode: static
+    - selectedIndex: null
+    - _tooltipByIndex:
+        - ''
+        - ''
+        - ''
+    - _colorByIndex:
+        - '{{ theme.primary }}'
+        - '{{ theme.warning }}'
+        - '{{ theme.danger }}'
+    - tooltipByIndex:
+        array: []
+    - colorByIndex:
+        array: []
+    - selectedLabel: ''
+    - _ids:
+        - ae4b0
+        - '003e7'
+        - 0406a
+    - _labels:
+        - Submitted
+        - Pending
+        - Canceled
+    - maintainSpaceWhenHidden: false
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    container: container1
+    subcontainer: c3ecb
+    col: 5
+    height: 0.6
+createdAt: 2023-05-16T22:58:00.268Z

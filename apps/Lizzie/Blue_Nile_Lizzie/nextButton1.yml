@@ -1,0 +1,80 @@
+id: nextButton1
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: bold/interface-arrows-right-alternate
+    - submitTargetId: null
+    - marginType: normal
+    - hidden: false
+    - text: >-
+        {{steppedContainer1.currentViewIndex === 0 ? 'Next' :
+        steppedContainer1.currentViewIndex === 1 ? 'Submit' : 'Completed'}}
+    - showInEditor: false
+    - tooltipText: ''
+    - _disclosedFields:
+        array: []
+    - submit: false
+    - iconBefore: ''
+    - events:
+        - ordered:
+            - params:
+                ordered:
+                  - wrap: false
+            - event: click
+            - method: showNextVisibleView
+            - pluginId: steppedContainer1
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+        - ordered:
+            - event: click
+            - type: datasource
+            - method: trigger
+            - pluginId: insertRecords
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+            - enabled: '{{steppedContainer1.currentViewIndex === 1}}'
+        - ordered:
+            - method: trigger
+            - enabled: '{{steppedContainer1.currentViewIndex === 0}}'
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: addBatch2
+            - waitType: debounce
+            - event: click
+            - type: datasource
+            - waitMs: '0'
+        - ordered:
+            - method: trigger
+            - enabled: '{{steppedContainer1.currentViewIndex === 1}}'
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: triggerWorkflow
+            - waitType: debounce
+            - event: click
+            - type: datasource
+            - waitMs: '0'
+    - loading: false
+    - loaderPosition: auto
+    - disabled: >-
+        {{ steppedContainer1.currentViewIndex + 1 ===
+        steppedContainer1.viewKeys.length || fileDropzone1.value.length === 0}}
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: steppedContainer1
+    rowGroup: footer
+    col: 8
+    height: 1
+    width: 4
+createdAt: 2023-05-16T22:46:55.131Z

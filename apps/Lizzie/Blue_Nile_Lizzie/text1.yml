@@ -1,0 +1,32 @@
+id: text1
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: center
+    - marginType: normal
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - _defaultValue: ''
+    - tooltipText: ''
+    - value: '#### Blue Nile Job Dashboard'
+    - style:
+        ordered:
+          - color: primary
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    subcontainer: sidebarFrame1
+    row: 3.0000000000000004
+    height: 0.8
+    width: 1
+createdAt: 2023-04-19T21:24:22.635Z

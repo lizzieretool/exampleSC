@@ -1,0 +1,16 @@
+id: addBatch
+type: function
+subtype: Function
+template:
+  ordered:
+    - funcBody: >-
+        const records = {{ fileDropzone1.parsedValue[0] }}
+
+        const enrichedRecords = records.map(r => Object.assign(r, {batch_id:
+        {{batchID.value}} }))
+
+
+        return enrichedRecords
+    - value: ''
+createdAt: 2023-06-14T13:58:26.963Z
+folder: Javascript

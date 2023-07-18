@@ -1,0 +1,93 @@
+id: chart4
+type: widget
+subtype: PlotlyChartWidget
+template:
+  ordered:
+    - dataseries:
+        ordered:
+          - '0':
+              ordered:
+                - label: carat
+                - datasource: '{{getBlueNileDiamonds2.data[''carat'']}}'
+                - chartType: pie
+                - aggregationType: sum
+                - color: null
+                - colors:
+                    ordered:
+                      - '11': '#AED6BD'
+                      - '0': '#033663'
+                      - '1': '#247BC7'
+                      - '2': '#55A1E3'
+                      - '3': '#DAECFC'
+                      - '4': '#EECA86'
+                      - '5': '#E9AB11'
+                      - '6': '#D47E2F'
+                      - '7': '#C15627'
+                      - '8': '#224930'
+                      - '9': '#238146'
+                      - '10': '#55A874'
+                - visible: true
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+    - isDataTemplateDirty: true
+    - datasource: ''
+    - isJsonTemplateDirty: false
+    - groupByDropdown: ''
+    - datasourceInputMode: javascript
+    - datasourceDataType: object
+    - layout: ''
+    - xAxisDropdown: status
+    - data: ''
+    - isStackSeriesEnabled: false
+    - xAxisTickFormat: ''
+    - skipDatasourceUpdate: true
+    - datasourceJS: '{{getBlueNileDiamonds2.data}}'
+    - yAxisTickFormat: ''
+    - datasourcePluginType: null
+    - xAxisType: default
+    - datasourcePluginId: null
+    - legendAlignment: right
+    - isLayoutJsonDirty: false
+    - chartType: pie
+    - title: ''
+    - xAxis: '{{getBlueNileDiamonds2.data[''status'']}}'
+    - events:
+        - ordered:
+            - event: select
+            - type: widget
+            - method: setValue
+            - pluginId: select1
+            - targetId: null
+            - params:
+                ordered:
+                  - value: '{{chart4.selectedPoints[''0''].label}}'
+            - waitType: debounce
+            - waitMs: '0'
+        - ordered:
+            - event: select
+            - type: widget
+            - method: setCurrentViewIndex
+            - pluginId: tabbedContainer2
+            - targetId: null
+            - params:
+                ordered:
+                  - viewIndex: '1'
+            - waitType: debounce
+            - waitMs: '0'
+    - groupByMode: dropdown
+    - onPointSelectQuery: ''
+    - xAxisMode: dropdown
+    - shouldShowLegend: true
+    - yAxisTitle: ''
+    - selectedPoints:
+        array: []
+    - xAxisTitle: ''
+    - groupByJS: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: container7
+    subcontainer: b81a7
+    height: 7
+    width: 12
+createdAt: 2023-06-02T14:33:21.374Z

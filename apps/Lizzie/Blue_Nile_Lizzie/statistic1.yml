@@ -1,0 +1,49 @@
+id: statistic1
+type: widget
+subtype: StatisticWidget2
+template:
+  ordered:
+    - clickable: false
+    - positiveTrend: '{{ self.value >= 0 }}'
+    - signDisplay: auto
+    - secondaryCurrency: USD
+    - secondarySuffix: ''
+    - align: left
+    - secondaryPrefix: ''
+    - secondaryEnableTrend: true
+    - marginType: normal
+    - secondaryDecimalPlaces: null
+    - hidden: false
+    - showSeparators: true
+    - formattingStyle: decimal
+    - showInEditor: false
+    - secondaryPositiveTrend: '{{ self.secondaryValue >= 0 }}'
+    - tooltipText: ''
+    - currency: USD
+    - value: '234'
+    - secondarySignDisplay: trendArrows
+    - suffix: ''
+    - labelCaption: Since last month
+    - prefix: ''
+    - secondaryPadDecimal: false
+    - label: Jobs Rejected in Sizing
+    - secondaryFormattingStyle: percent
+    - icon: ''
+    - events:
+        ordered: []
+    - enableTrend: false
+    - secondaryValue: 0.08
+    - decimalPlaces: null
+    - padDecimal: false
+    - maintainSpaceWhenHidden: false
+    - secondaryShowSeparators: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container6
+    subcontainer: b81a7
+    row: 5.551115123125783e-17
+    height: 0.8
+    width: 12
+createdAt: 2023-06-01T18:26:48.899Z

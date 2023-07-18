@@ -1,0 +1,116 @@
+id: chart3
+type: widget
+subtype: PlotlyChartWidget
+template:
+  ordered:
+    - dataseries:
+        ordered:
+          - '0':
+              ordered:
+                - label: Adara
+                - datasource: |-
+                    {{{
+                      'Dataset': ['Rejections'],
+                        'Adara': [4],
+                        'Tyler': [6],
+                          'Nate': [7]
+
+                    }['Adara']}}
+                - chartType: bar
+                - aggregationType: sum
+                - color: '#033663'
+                - colors:
+                    ordered: []
+                - visible: true
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+          - '1':
+              ordered:
+                - label: Tyler
+                - datasource: |-
+                    {{{
+                      'Dataset': ['Rejections'],
+                        'Adara': [4],
+                        'Tyler': [6],
+                          'Nate': [7]
+
+                    }['Tyler']}}
+                - chartType: bar
+                - aggregationType: sum
+                - color: '#247BC7'
+                - colors:
+                    ordered: []
+                - visible: true
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+          - '2':
+              ordered:
+                - label: Nate
+                - datasource: |-
+                    {{{
+                      'Dataset': ['Rejections'],
+                        'Adara': [4],
+                        'Tyler': [6],
+                          'Nate': [7]
+
+                    }['Nate']}}
+                - chartType: bar
+                - aggregationType: sum
+                - color: '#55A1E3'
+                - colors:
+                    ordered: []
+                - visible: true
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+    - isDataTemplateDirty: true
+    - datasource: ''
+    - isJsonTemplateDirty: false
+    - groupByDropdown: null
+    - datasourceInputMode: javascript
+    - datasourceDataType: object
+    - layout: ''
+    - xAxisDropdown: Dataset
+    - data: ''
+    - isStackSeriesEnabled: false
+    - xAxisTickFormat: ''
+    - skipDatasourceUpdate: true
+    - datasourceJS: |-
+        {
+          'Dataset': ['Rejections'],
+            'Adara': [4],
+            'Tyler': [6],
+              'Nate': [7]
+
+        }
+    - yAxisTickFormat: ''
+    - datasourcePluginType: null
+    - xAxisType: default
+    - datasourcePluginId: null
+    - legendAlignment: bottom
+    - isLayoutJsonDirty: false
+    - chartType: bar
+    - title: ''
+    - xAxis: |-
+        {{{
+          'Dataset': ['Rejections'],
+            'Adara': [4],
+            'Tyler': [6],
+              'Nate': [7]
+
+        }.Dataset}}
+    - groupByMode: dropdown
+    - onPointSelectQuery: ''
+    - xAxisMode: dropdown
+    - shouldShowLegend: true
+    - yAxisTitle: ''
+    - selectedPoints:
+        array: []
+    - xAxisTitle: ''
+    - groupByJS: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: container8
+    subcontainer: b81a7
+    row: 0.20000000000000717
+    height: 7.4
+    width: 12
+createdAt: 2023-06-01T18:27:54.739Z

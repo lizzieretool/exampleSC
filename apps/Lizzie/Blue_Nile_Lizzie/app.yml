@@ -1,0 +1,20 @@
+version: 43.0.9
+pageUuid: e8060a70-009c-11ee-baa1-ff9d7f5aad00
+appTemplate:
+  urlFragmentDefinitions:
+    - ordered:
+        - name: ''
+        - value: ''
+  appThemeId: 933
+  experimentalFeatures:
+    object:
+      sourceControlTemplateDehydration: false
+  folders:
+    - bluenile
+    - Javascript
+  pageLoadValueOverrides:
+    - ordered:
+        - name: textInput6.value
+        - value: '{{urlparams.batch_id}}'
+  version: 3.4.0
+  experimentalDataTabEnabled: true

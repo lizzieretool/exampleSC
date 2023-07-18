@@ -1,0 +1,34 @@
+id: text3
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - marginType: normal
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: >-
+        #### Upload Directions
+
+        Please upload a valid CSV following this example
+        [format](www.retool.com). Note that all uploads will be tracked in the
+        changelog.
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: steppedContainer1
+    subcontainer: 6f12a
+    row: 0.4
+    height: 0.6
+    width: 4
+createdAt: 2023-05-16T22:47:58.771Z

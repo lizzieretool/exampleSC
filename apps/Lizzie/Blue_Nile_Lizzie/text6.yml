@@ -1,0 +1,30 @@
+id: text6
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: center
+    - marginType: normal
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: >-
+        👋 **Hello {{ current_user.firstName || 'friend' }}!** Use this
+        dashboard to upload new jobs and view the status of existing jobs.
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    subcontainer: sidebarFrame1
+    row: 3.6
+    height: 0.6
+    width: 1
+createdAt: 2023-05-18T16:19:43.542Z

@@ -1,0 +1,28 @@
+id: divider2
+type: widget
+subtype: DividerWidget
+template:
+  ordered:
+    - horizontalAlign: center
+    - marginType: normal
+    - hidden: false
+    - text: ''
+    - textSize: default
+    - showInEditor: false
+    - tooltipText: ''
+    - style:
+        ordered:
+          - color: primary
+    - _disclosedFields:
+        array: []
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container1
+    subcontainer: c3ecb
+    row: 0.6
+    height: 0.2
+    width: 12
+createdAt: 2023-05-16T23:02:33.070Z

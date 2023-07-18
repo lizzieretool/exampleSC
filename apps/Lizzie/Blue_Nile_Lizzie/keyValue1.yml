@@ -1,0 +1,72 @@
+id: keyValue1
+type: widget
+subtype: KeyValueMapWidget
+template:
+  ordered:
+    - rowHeaderNames:
+        ordered: []
+    - rowFormats:
+        ordered: []
+    - valueTitle: Value
+    - data: '{{formatDataAsArray(getShipped.data)[i]}}'
+    - prevRowMappers:
+        ordered: []
+    - rowMappersRenderAsHTML:
+        ordered: []
+    - rowVisibility:
+        ordered:
+          - batch_id: false
+          - a: true
+          - received: true
+          - shape: true
+          - b: true
+          - c: true
+          - color: true
+          - carat: true
+          - job_number: false
+          - customer_name: false
+          - cost: true
+          - tracking_number: true
+          - customer_address: true
+          - shipped: true
+          - item: true
+          - clarity: true
+          - image: false
+          - customer_id: true
+          - job: false
+    - prevRowFormats:
+        ordered: []
+    - rowMappers:
+        ordered: []
+    - rows:
+        - a
+        - b
+        - c
+        - job_number
+        - customer_id
+        - shipped
+        - customer_name
+        - item
+        - carat
+        - shape
+        - color
+        - clarity
+        - cost
+        - image
+        - batch_id
+        - job
+        - received
+        - customer_address
+        - tracking_number
+    - keyTitle: Key
+style:
+  ordered: []
+position2:
+  position2:
+    container: container9
+    subcontainer: 989df
+    row: 0.3999999999999999
+    col: 2
+    height: 4.6
+    width: 10
+createdAt: 2023-06-14T15:58:54.616Z

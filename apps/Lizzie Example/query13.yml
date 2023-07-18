@@ -1,0 +1,97 @@
+id: query13
+type: datasource
+subtype: GoogleSheetsQuery
+resourceName: f5b9e948-4044-41c3-9383-4b2ce4ebec35
+resourceDisplayName: CCRB Data
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - useSheetRange: false
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - useRawSpreadsheetId: false
+    - runWhenModelUpdates: true
+    - showFailureToaster: true
+    - spreadsheetId: 1nEIkjwpsn9p05AUCuUkrDEAIX427DbiiK4Q3qGSdsEA
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - sheetUpdate: ''
+    - privateParams: []
+    - sheetIdToCopy: ''
+    - sheetName: ''
+    - runWhenPageLoadsDelay: ''
+    - doNotThrowOnDeleteNoOp: false
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - filterBy: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - queryRunTime: null
+    - actionType: read
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - offset: ''
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: ''
+    - watchedParams: []
+    - bulkUpdateRows: ''
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - useRawCopyToSpreadsheetId: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: true
+    - valueFormatting: formatted
+    - showUpdateSetValueDynamicallyToggle: true
+    - copyToSpreadsheetId: ''
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - sheetTitle: ''
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        data.filter(x => x.title_id.includes(127))
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - limit: ''
+    - enableCaching: false
+    - allowedGroups: []
+    - sheetRange: ''
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-02-06T16:01:24.063Z

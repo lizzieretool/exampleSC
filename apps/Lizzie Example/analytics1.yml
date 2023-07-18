@@ -1,0 +1,11 @@
+id: analytics1
+type: instrumentation
+subtype: Instrumentation
+template:
+  ordered:
+    - properties:
+        array: []
+    - jsonBody: "{\n\ttime: {{ moment.now() }},\n\tuser_email: {{ current_user.email }},\n}"
+    - hasConditionsEnabled: false
+    - conditionBody: '{{ true }}'
+createdAt: 2023-01-19T15:22:21.156Z

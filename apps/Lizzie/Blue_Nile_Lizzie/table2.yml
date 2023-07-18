@@ -1,0 +1,578 @@
+id: table2
+type: widget
+subtype: TableWidget2
+template:
+  ordered:
+    - selectedRowKey: null
+    - _nextAfterCursor: ''
+    - _columnBackgroundColor:
+        ordered:
+          - 9937d: ''
+          - 496d8: ''
+          - e0bb6: ''
+          - 5481e: ''
+          - dbe18: ''
+          - bd673: ''
+          - '59940': ''
+          - 86f9d: ''
+          - 7c4e1: ''
+          - 53b6f: ''
+          - 18f40: ''
+          - 3407e: ''
+          - ad02b: ''
+          - '92435': ''
+          - 69f84: ''
+    - _defaultSort: null
+    - _clearChangesetOnSave: true
+    - heightType: fixed
+    - disableEdits: false
+    - _rowHeight: medium
+    - _columnIds:
+        - dbe18
+        - 3407e
+        - 18f40
+        - 496d8
+        - 53b6f
+        - ad02b
+        - 9937d
+        - bd673
+        - 5481e
+        - '92435'
+        - 69f84
+        - 7c4e1
+        - e0bb6
+        - 86f9d
+        - '59940'
+    - _isSaving: false
+    - _actionIds: []
+    - _clearChangeset: false
+    - caseSensitiveFiltering: false
+    - _limitOffsetRowCount: null
+    - selectedSourceRow: null
+    - _dynamicColumnsEnabled: false
+    - disableSave: false
+    - _columnEditableOptions:
+        ordered:
+          - 9937d:
+              ordered:
+                - showStepper: true
+          - 496d8:
+              ordered: []
+          - e0bb6:
+              ordered: []
+          - 5481e:
+              ordered: []
+          - dbe18:
+              ordered: []
+          - bd673:
+              ordered: []
+          - '59940':
+              ordered: []
+          - 86f9d:
+              ordered: []
+          - 7c4e1:
+              ordered: []
+          - 53b6f:
+              ordered: []
+          - 18f40:
+              ordered: []
+          - 3407e:
+              ordered: []
+          - ad02b:
+              ordered: []
+          - '92435':
+              ordered: []
+          - 69f84:
+              ordered:
+                - showStepper: true
+    - _toolbarPosition: bottom
+    - _groupByColumns: []
+    - _toolbarButtonLabel:
+        ordered:
+          - 1a: Filter
+          - 3c: Download
+          - 4d: Refresh
+    - _nextBeforeCursor: ''
+    - _persistRowSelection: false
+    - _toolbarButtonIcon:
+        ordered:
+          - 1a: bold/interface-text-formatting-filter-2
+          - 3c: bold/interface-download-button-2
+          - 4d: bold/interface-arrows-round-left
+    - changesetArray:
+        array: []
+    - _toolbarButtonType:
+        ordered:
+          - 1a: filter
+          - 3c: custom
+          - 4d: custom
+    - _columnStatusIndicator:
+        ordered: []
+    - _columnOptionList:
+        ordered:
+          - 9937d:
+              ordered: []
+          - 496d8:
+              ordered: []
+          - e0bb6:
+              ordered: []
+          - 5481e:
+              ordered: []
+          - dbe18:
+              ordered: []
+          - bd673:
+              ordered: []
+          - '59940':
+              ordered: []
+          - 86f9d:
+              ordered: []
+          - 7c4e1:
+              ordered: []
+          - 53b6f:
+              ordered: []
+          - 18f40:
+              ordered: []
+          - 3407e:
+              ordered: []
+          - ad02b:
+              ordered: []
+          - '92435':
+              ordered: []
+          - 69f84:
+              ordered: []
+    - _columnValueOverride:
+        ordered:
+          - 9937d: ''
+          - 496d8: ''
+          - e0bb6: ''
+          - 5481e: ''
+          - dbe18: ''
+          - bd673: ''
+          - '59940': ''
+          - 86f9d: ''
+          - 7c4e1: ''
+          - 53b6f: '{{ _.startCase(item) }}'
+          - 18f40: '{{ _.startCase(item) }}'
+          - 3407e: ''
+          - ad02b: ''
+          - '92435': '{{ _.startCase(item) }}'
+          - 69f84: ''
+    - marginType: normal
+    - _showBorder: true
+    - _templatePageSize: null
+    - _dynamicColumnProperties:
+        ordered: []
+    - _showHeader: true
+    - _currentPage: 0
+    - _columnKey:
+        ordered:
+          - 9937d: carat
+          - 496d8: image
+          - e0bb6: job
+          - 5481e: color
+          - dbe18: job_number
+          - bd673: shape
+          - '59940': tracking_number
+          - 86f9d: customer_address
+          - 7c4e1: batch_id
+          - 53b6f: item
+          - 18f40: customer_name
+          - 3407e: received
+          - ad02b: customer_id
+          - '92435': clarity
+          - 69f84: cost
+    - hidden: false
+    - _toolbarButtonIds:
+        - 1a
+        - 3c
+        - 4d
+    - data: '{{ getAppraisals.data }}'
+    - _cellSelection: none
+    - _serverPaginated: false
+    - _linkedFilterId: null
+    - searchMode: fuzzy
+    - _columnCellTooltip:
+        ordered:
+          - 9937d: ''
+          - 496d8: ''
+          - e0bb6: ''
+          - 5481e: ''
+          - dbe18: ''
+          - bd673: ''
+          - '59940': ''
+          - 86f9d: ''
+          - 7c4e1: ''
+          - 53b6f: ''
+          - 18f40: ''
+          - 3407e: ''
+          - ad02b: ''
+          - '92435': ''
+          - 69f84: ''
+    - _columnFormat:
+        ordered:
+          - 9937d: decimal
+          - 496d8: image
+          - e0bb6: string
+          - 5481e: string
+          - dbe18: string
+          - bd673: string
+          - '59940': string
+          - 86f9d: string
+          - 7c4e1: string
+          - 53b6f: tag
+          - 18f40: tag
+          - 3407e: boolean
+          - ad02b: string
+          - '92435': tag
+          - 69f84: decimal
+    - _cursorCache:
+        object: {}
+    - _calculatedPageSize: null
+    - _primaryKeyColumnId: dbe18
+    - selectedDataIndex: null
+    - _columnAlignment:
+        ordered:
+          - 9937d: right
+          - 496d8: left
+          - e0bb6: left
+          - 5481e: left
+          - dbe18: left
+          - bd673: left
+          - '59940': left
+          - 86f9d: left
+          - 7c4e1: left
+          - 53b6f: left
+          - 18f40: left
+          - 3407e: left
+          - ad02b: left
+          - '92435': left
+          - 69f84: right
+    - _actionIcon:
+        ordered: []
+    - _columnTooltip:
+        ordered:
+          - 9937d: ''
+          - 496d8: ''
+          - e0bb6: ''
+          - 5481e: ''
+          - dbe18: ''
+          - bd673: ''
+          - '59940': ''
+          - 86f9d: ''
+          - 7c4e1: ''
+          - 53b6f: ''
+          - 18f40: ''
+          - 3407e: ''
+          - ad02b: ''
+          - '92435': ''
+          - 69f84: ''
+    - _columnIcon:
+        ordered:
+          - 9937d: ''
+          - 496d8: ''
+          - e0bb6: ''
+          - 5481e: ''
+          - dbe18: ''
+          - bd673: ''
+          - '59940': ''
+          - 86f9d: ''
+          - 7c4e1: ''
+          - 53b6f: ''
+          - 18f40: ''
+          - 3407e: ''
+          - ad02b: ''
+          - '92435': ''
+          - 69f84: ''
+    - _columnCellTooltipMode:
+        ordered: []
+    - _pageSize: null
+    - showInEditor: false
+    - selectedSourceRows:
+        array: []
+    - _selectMultipleRowsOnActionClick: 'no'
+    - _columnSortDisabled:
+        ordered:
+          - 9937d: false
+          - 496d8: false
+          - e0bb6: false
+          - 5481e: false
+          - dbe18: false
+          - bd673: false
+          - '59940': false
+          - 86f9d: false
+          - 7c4e1: false
+          - 53b6f: false
+          - 18f40: false
+          - 3407e: false
+          - ad02b: false
+          - '92435': false
+          - 69f84: false
+    - filterStack: null
+    - changesetObject: null
+    - _actionDisabled:
+        ordered: []
+    - _columnReferenceId:
+        ordered:
+          - 9937d: ''
+          - 496d8: ''
+          - e0bb6: ''
+          - 5481e: ''
+          - dbe18: ''
+          - bd673: ''
+          - '59940': ''
+          - 86f9d: ''
+          - 7c4e1: ''
+          - 53b6f: ''
+          - 18f40: ''
+          - 3407e: ''
+          - ad02b: ''
+          - '92435': ''
+          - 69f84: ''
+    - _dynamicColumnSource:
+        array: []
+    - _rowSelection: single
+    - _columnCaption:
+        ordered:
+          - 9937d: ''
+          - 496d8: ''
+          - e0bb6: ''
+          - 5481e: ''
+          - dbe18: ''
+          - bd673: ''
+          - '59940': ''
+          - 86f9d: ''
+          - 7c4e1: ''
+          - 53b6f: ''
+          - 18f40: ''
+          - 3407e: ''
+          - ad02b: ''
+          - '92435': ''
+          - 69f84: ''
+    - _dynamicColumnFormatOptions:
+        ordered: []
+    - _dynamicRowHeights: false
+    - _columnFormatOptions:
+        ordered:
+          - 9937d:
+              ordered:
+                - showSeparators: true
+          - 496d8:
+              ordered:
+                - showUnderline: hover
+                - widthType: fit
+          - e0bb6:
+              ordered: []
+          - 5481e:
+              ordered: []
+          - dbe18:
+              ordered: []
+          - bd673:
+              ordered: []
+          - '59940':
+              ordered: []
+          - 86f9d:
+              ordered: []
+          - 7c4e1:
+              ordered: []
+          - 53b6f:
+              ordered:
+                - automaticColors: true
+          - 18f40:
+              ordered:
+                - automaticColors: true
+          - 3407e:
+              ordered: []
+          - ad02b:
+              ordered: []
+          - '92435':
+              ordered:
+                - automaticColors: true
+          - 69f84:
+              ordered:
+                - showSeparators: true
+    - _changeset: null
+    - _afterCursor: ''
+    - selectedRowKeys:
+        array: []
+    - _beforeCursor: ''
+    - searchTerm: ''
+    - selectedRows:
+        array: []
+    - _disabledVirtualization: false
+    - _showColumnBorders: false
+    - _columnStatusIndicatorOptions:
+        ordered: []
+    - _columnSize:
+        ordered:
+          - 9937d: 100
+          - 496d8: 100
+          - e0bb6: 96
+          - 5481e: 120
+          - dbe18: 100
+          - bd673: 100
+          - '59940': 120
+          - 86f9d: 135
+          - 7c4e1: 100
+          - 53b6f: 100
+          - 18f40: 100
+          - 3407e: 91
+          - ad02b: 100
+          - '92435': 100
+          - 69f84: 100
+    - _serverPaginationType: limitOffsetBased
+    - _selectSingleRowsOnActionClick: replace
+    - _showFooter: true
+    - _groupedColumnConfig:
+        ordered: []
+    - _virtualizeStartIndex: 0
+    - _toolbarButtonHidden:
+        ordered: []
+    - _defaultFilters:
+        ordered: []
+    - events:
+        - ordered:
+            - event: save
+            - type: datasource
+            - method: trigger
+            - pluginId: saveReviewChanges
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: exportData
+            - pluginId: table2
+            - targetId: 3c
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: refresh
+            - pluginId: table2
+            - targetId: 4d
+    - _columnEditable:
+        ordered:
+          - 9937d: ''
+          - 496d8: ''
+          - e0bb6: ''
+          - 5481e: ''
+          - dbe18: false
+          - bd673: ''
+          - '59940': ''
+          - 86f9d: ''
+          - 7c4e1: ''
+          - 53b6f: ''
+          - 18f40: ''
+          - 3407e: 'true'
+          - ad02b: ''
+          - '92435': ''
+          - 69f84: ''
+    - pagination: null
+    - selectedDataIndexes:
+        array: []
+    - sortArray:
+        array: []
+    - _selectedCell: null
+    - overflowType: scroll
+    - selectedCell: null
+    - _defaultSelectedRow:
+        ordered:
+          - mode: index
+          - indexType: display
+          - index: 0
+    - _hasNextPage: false
+    - _includeRowInChangesetArray: false
+    - _columnPosition:
+        ordered:
+          - 9937d: center
+          - 496d8: center
+          - e0bb6: center
+          - 5481e: center
+          - dbe18: center
+          - bd673: center
+          - '59940': center
+          - 86f9d: center
+          - 7c4e1: center
+          - 53b6f: center
+          - 18f40: center
+          - 3407e: center
+          - ad02b: center
+          - '92435': center
+          - 69f84: center
+    - _enableSaveActions: true
+    - _columnPlaceholder:
+        ordered:
+          - 9937d: Enter value
+          - 496d8: ''
+          - e0bb6: Enter value
+          - 5481e: Enter value
+          - dbe18: Enter value
+          - bd673: Enter value
+          - '59940': Enter value
+          - 86f9d: Enter value
+          - 7c4e1: Enter value
+          - 53b6f: Select option
+          - 18f40: Select option
+          - 3407e: Enter value
+          - ad02b: Enter value
+          - '92435': Select option
+          - 69f84: Enter value
+    - _defaultFilterOperator: and
+    - _actionLabel:
+        ordered: []
+    - _virtualizeEndIndex: 0
+    - selectedRow: null
+    - _actionHidden:
+        ordered: []
+    - maintainSpaceWhenHidden: false
+    - _columnHidden:
+        ordered:
+          - 9937d: ''
+          - 496d8: ''
+          - e0bb6: ''
+          - 5481e: ''
+          - dbe18: 'true'
+          - bd673: ''
+          - '59940': ''
+          - 86f9d: ''
+          - 7c4e1: ''
+          - 53b6f: ''
+          - 18f40: 'false'
+          - 3407e: ''
+          - ad02b: 'true'
+          - '92435': ''
+          - 69f84: ''
+    - _columnLabel:
+        ordered:
+          - 9937d: Carat
+          - 496d8: Image
+          - e0bb6: Job
+          - 5481e: Color
+          - dbe18: Job number
+          - bd673: Shape
+          - '59940': Tracking number
+          - 86f9d: Customer address
+          - 7c4e1: Batch ID
+          - 53b6f: Item
+          - 18f40: Customer name
+          - 3407e: Received
+          - ad02b: Customer ID
+          - '92435': Clarity
+          - 69f84: Cost
+    - _showToolbar: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer1
+    subcontainer: '19506'
+    row: 1
+    height: 8
+    width: 12
+createdAt: 2023-06-14T15:35:05.132Z

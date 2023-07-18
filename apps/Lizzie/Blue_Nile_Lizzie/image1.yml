@@ -1,0 +1,36 @@
+id: image1
+type: widget
+subtype: ImageWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: center
+    - srcWidth: null
+    - clickable: false
+    - flipVertical: false
+    - src: https://mma.prnewswire.com/media/1874619/Blue_Nile_logo.jpg?p=facebook
+    - marginType: normal
+    - hidden: false
+    - srcHeight: null
+    - showInEditor: false
+    - tooltipText: ''
+    - fit: cover
+    - flipHorizontal: false
+    - aspectRatio: null
+    - storageBlobId: ''
+    - _disclosedFields:
+        array: []
+    - altText: ''
+    - dbBlobId: ''
+    - events:
+        ordered: []
+    - srcType: src
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    subcontainer: sidebarFrame1
+    height: 3
+    width: 1
+createdAt: 2023-05-26T15:58:26.996Z

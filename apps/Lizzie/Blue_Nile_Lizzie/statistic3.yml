@@ -1,0 +1,50 @@
+id: statistic3
+type: widget
+subtype: StatisticWidget2
+template:
+  ordered:
+    - clickable: false
+    - positiveTrend: '{{ self.value >= 0 }}'
+    - signDisplay: auto
+    - secondaryCurrency: USD
+    - secondarySuffix: ''
+    - align: left
+    - secondaryPrefix: ''
+    - secondaryEnableTrend: true
+    - marginType: normal
+    - secondaryDecimalPlaces: null
+    - hidden: false
+    - showSeparators: true
+    - formattingStyle: decimal
+    - showInEditor: false
+    - secondaryPositiveTrend: '{{ self.secondaryValue >= 0 }}'
+    - tooltipText: ''
+    - currency: USD
+    - value: '{{getStatusInfo.data.image.length}}'
+    - secondarySignDisplay: trendArrows
+    - suffix: ''
+    - labelCaption: Since last week
+    - prefix: ''
+    - secondaryPadDecimal: false
+    - label: Overdue Jobs
+    - secondaryFormattingStyle: percent
+    - icon: ''
+    - events:
+        ordered: []
+    - enableTrend: false
+    - secondaryValue: '-0.03'
+    - decimalPlaces: null
+    - padDecimal: false
+    - maintainSpaceWhenHidden: false
+    - secondaryShowSeparators: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container3
+    subcontainer: b81a7
+    row: 1.6653345369377348e-16
+    col: 1
+    height: 0.8
+    width: 11
+createdAt: 2023-06-01T18:26:57.858Z

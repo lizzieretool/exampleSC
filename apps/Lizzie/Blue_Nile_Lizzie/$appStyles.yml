@@ -1,0 +1,13 @@
+id: $appStyles
+type: setting
+subtype: AppStyles
+template:
+  ordered:
+    - value: |-
+        .editor-canvas-container * { 
+          font-family: 'Avenir Book' !important;
+        }
+        .retool-canvas * {
+          font-family: 'Avenir Book' !important;
+        }
+createdAt: 2023-04-19T21:29:37.629Z

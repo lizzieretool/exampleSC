@@ -1,0 +1,58 @@
+id: fileDropzone1
+type: widget
+subtype: FileDropzoneWidget
+template:
+  ordered:
+    - parsedValue:
+        array: []
+    - parseFiles: true
+    - maxSize: ''
+    - appendNewSelection: true
+    - selectionType: multiple
+    - accept:
+        array: []
+    - marginType: normal
+    - hidden: false
+    - customValidation: ''
+    - maxCount: null
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - showInEditor: false
+    - parsing: false
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value:
+        array: []
+    - labelCaption: ''
+    - labelWidth: '33'
+    - minSize: ''
+    - placeholder: Select or drag and drop
+    - _disclosedFields:
+        array: []
+    - label: ''
+    - _validate: false
+    - labelWidthUnit: '%'
+    - invalid: false
+    - files:
+        array: []
+    - iconBefore: bold/programming-browser-search
+    - events:
+        ordered: []
+    - loading: false
+    - disabled: false
+    - labelPosition: top
+    - minCount: null
+    - labelWrap: false
+    - maintainSpaceWhenHidden: false
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: steppedContainer1
+    subcontainer: 6f12a
+    col: 4
+    height: 2.4
+    width: 8
+createdAt: 2023-05-16T22:47:42.268Z

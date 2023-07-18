@@ -1,0 +1,102 @@
+id: tabbedContainer2
+type: widget
+subtype: ContainerWidget2
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+        - ''
+        - ''
+        - false
+        - false
+    - heightType: auto
+    - currentViewKey: '{{ !urlparams.batch_id ? self.viewKeys[0] : self.viewKeys[3] }}'
+    - iconByIndex:
+        array: []
+    - clickable: false
+    - _iconByIndex:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+    - marginType: normal
+    - hidden: false
+    - showHeader: true
+    - hoistFetching: true
+    - paddingType: normal
+    - views:
+        array: []
+    - showInEditor: false
+    - tooltipText: ''
+    - hiddenByIndex:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+        - ''
+        - false
+        - false
+    - _disclosedFields:
+        array: []
+    - currentViewIndex: null
+    - _hasMigratedNestedItems: true
+    - transition: none
+    - itemMode: static
+    - _tooltipByIndex:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+    - tooltipByIndex:
+        array: []
+    - showFooter: false
+    - _viewKeys:
+        - Upload New Jobs
+        - View Open Jobs
+        - Job Dashboard
+        - Appraisal Dashboard
+        - Appraisal Shipment
+    - events:
+        ordered: []
+    - _ids:
+        - 060ba
+        - 8654a
+        - 4a86f
+        - ac028
+        - c3e8c
+    - viewKeys:
+        array: []
+    - iconPositionByIndex:
+        array: []
+    - _iconPositionByIndex:
+        - ''
+        - ''
+        - ''
+        - left
+        - left
+    - hovered: false
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - _labels:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    row: 5.551115123125783e-17
+    height: 0.2
+    width: 12
+createdAt: 2023-05-18T15:39:34.186Z

@@ -1,0 +1,46 @@
+id: form1
+type: widget
+subtype: FormWidget2
+template:
+  ordered:
+    - disableSubmit: false
+    - heightType: auto
+    - resetAfterSubmit: true
+    - submitting: false
+    - marginType: normal
+    - hidden: false
+    - data:
+        object: {}
+    - showHeader: true
+    - hoistFetching: false
+    - paddingType: normal
+    - scroll: true
+    - initialData: '{{diamondTable.selectedRow.data}}'
+    - showInEditor: false
+    - tooltipText: ''
+    - invalid: false
+    - showFooter: true
+    - events:
+        - ordered:
+            - event: submit
+            - type: datasource
+            - method: trigger
+            - pluginId: editJob
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - requireValidation: true
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: editModal
+    width: 12
+createdAt: 2023-06-01T18:28:28.537Z

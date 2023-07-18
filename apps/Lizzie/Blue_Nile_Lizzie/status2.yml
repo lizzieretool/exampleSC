@@ -1,0 +1,49 @@
+id: status2
+type: widget
+subtype: StatusWidget
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - _values:
+        - '{{getStatusInfo.data.new_status[i]}}'
+    - fallbackTooltip: ''
+    - iconByIndex: ''
+    - iconPosition: left
+    - values: ''
+    - _iconByIndex:
+        - bold/interface-alert-warning-triangle
+    - marginType: normal
+    - hidden: false
+    - data: ''
+    - selectedItem: null
+    - showInEditor: false
+    - verticalAlign: top
+    - value: ' {{getStatusInfo.data.new_status[i]}}'
+    - _hasMigratedNestedItems: true
+    - itemMode: static
+    - selectedIndex: null
+    - _tooltipByIndex:
+        - ''
+    - _colorByIndex:
+        - red
+    - tooltipByIndex: ''
+    - colorByIndex: ''
+    - selectedLabel: ''
+    - _ids:
+        - 1f6a1
+    - _labels:
+        - ''
+    - maintainSpaceWhenHidden: false
+    - labels: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: container2
+    subcontainer: 6e24b
+    row: 0.8000000000000002
+    col: 4
+    height: 0.6
+    width: 5
+createdAt: 2023-06-01T19:00:40.412Z

@@ -1,0 +1,27 @@
+id: editModal
+type: widget
+subtype: ModalWidget
+template:
+  ordered:
+    - opened: false
+    - modalOverflowType: scroll
+    - onModalClose: ''
+    - modalHeightType: auto
+    - tooltipText: ''
+    - modalHeight: ''
+    - onModalOpen: ''
+    - modalWidth: ''
+    - closeOnOutsideClick: true
+    - loading: ''
+    - disabled: '{{diamondTable.selectedRow.data == undefined}}'
+    - buttonText: Edit Job
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer2
+    subcontainer: 8654a
+    row: 1
+    height: 1
+    width: 2
+createdAt: 2023-05-18T15:56:19.909Z

@@ -1,0 +1,14 @@
+version: 43.0.9
+pageUuid: a8037fd8-2565-11ed-b6cc-5bc3b6a20224
+appTemplate:
+  experimentalFeatures:
+    object:
+      sourceControlTemplateDehydration: false
+  experimentalPerfFeatures:
+    object:
+      batchCommitModelEnabled: false
+      skipDepCycleCheckingEnabled: false
+      serverDepGraphEnabled: false
+      useRuntimeV2: false
+  version: 3.0.0
+  experimentalDataTabEnabled: true

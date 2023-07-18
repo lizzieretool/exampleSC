@@ -1,0 +1,96 @@
+id: setToActive
+type: datasource
+subtype: SqlQueryUnified
+resourceName: ff964bcb-f149-4908-8484-775e3daa1c69
+resourceDisplayName: Healthcare - Postgres
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - records: ''
+    - lastReceivedFromResourceAt: null
+    - databasePasswordOverride: ''
+    - queryDisabledMessage: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - showFailureToaster: true
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - privateParams: []
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - recordId: ''
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - dataArray: []
+    - cacheKeyTtl: ''
+    - filterBy: '[{"key":"id","value":"{{table1.selectedRow.data.id}}","operation":"="}]'
+    - databaseHostOverride: ''
+    - metadata: null
+    - editorMode: gui
+    - actionType: UPDATE_BY
+    - changesetObject: ''
+    - shouldUseLegacySql: false
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - databaseNameOverride: ''
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: '[{"key":"active","value":"true"}]'
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events:
+        - ordered:
+            - event: success
+            - type: datasource
+            - method: trigger
+            - pluginId: getProviders
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - tableName: providers
+    - queryTimeout: '10000'
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - databaseUsernameOverride: ''
+    - shouldEnableBatchQuerying: false
+    - doNotThrowOnNoOp: false
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2022-11-30T15:02:23.996Z

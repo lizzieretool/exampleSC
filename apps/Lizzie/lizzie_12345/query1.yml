@@ -1,0 +1,24 @@
+id: query1
+type: datasource
+subtype: RESTQuery
+resourceName: 623116e9-56db-4fa9-940b-ef4b9b98c711
+resourceDisplayName: Pagerduty Incident Management Marketplace App (1)
+template:
+  queryRefreshTime: ''
+  queryDisabledMessage: ''
+  successMessage: ''
+  queryDisabled: ''
+  resourceNameOverride: ''
+  runWhenModelUpdates: true
+  query: ''
+  privateParams: []
+  data: null
+  showSuccessToaster: true
+  confirmationMessage: null
+  watchedParams: []
+  timestamp: 0
+  runWhenPageLoads: false
+  queryTimeout: '10001'
+  requireConfirmation: false
+  queryThrottleTime: '750'
+createdAt: 2023-07-18T21:08:27.847Z
